@@ -165,7 +165,7 @@ def train_lr_grid(X_train, y_train, X_test, y_test,
 
 if __name__ == "__main__":
     # Quick sanity check
-    from preprocess import full_pipeline
+    from src.preprocess import full_pipeline
     X_train, X_test, y_train, y_test, _, _ = full_pipeline("iris")
 
     svm_results = train_svm_grid(X_train, y_train, X_test, y_test)
