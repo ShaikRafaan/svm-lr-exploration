@@ -75,14 +75,6 @@ python src/main.py --dataset iris --cv 0
 python src/main.py --dataset breast_cancer --cv 10
 ```
 
-### Option B — Jupyter Notebook
-
-```bash
-jupyter notebook notebooks/
-```
-
----
-
 ## SVM Parameters Explored
 
 | Parameter | Values Tested |
