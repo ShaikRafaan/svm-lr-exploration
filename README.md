@@ -1,11 +1,5 @@
 # SVM & LR Parameter Exploration
 
-> **Course:** Machine Learning (Fall 2025) — University of Birmingham Dubai  
-> **Difficulty:** Easy Tasks 1 & 2  
-> **Algorithms:** Support Vector Machines (SVM) | Logistic Regression (LR)
-
----
-
 ## What This Project Does
 
 This repo implements two practice tasks:
@@ -21,14 +15,13 @@ Repeats the same experiment using Logistic Regression (varying penalty, C, solve
 ## Project Structure
 
 ```
-svm-lr-parameter-exploration/
+svm-lr-exploration/
 ├── src/
 │   ├── preprocess.py   # Data loading, missing value handling, scaling, train/test split
 │   ├── train.py        # SVM + LR parameter grid search
 │   ├── evaluate.py     # Accuracy tables, plots, confusion matrices
 │   └── main.py         # End-to-end runner (entry point)
 ├── results/            # Auto-generated CSVs and plots
-├── notebooks/          # Jupyter notebooks for interactive exploration
 ├── requirements.txt
 └── README.md
 ```
@@ -119,7 +112,3 @@ All outputs are saved to `/results/`:
 - **Cross-validation** — More robust accuracy estimate; avoids lucky/unlucky splits
 
 ---
-
-## Reference
-
-Course materials by Dr. Fawad Hussain, University of Birmingham Dubai (Fall 2025)
