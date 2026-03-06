@@ -16,9 +16,9 @@ import argparse
 # Allow running from repo root
 sys.path.insert(0, os.path.dirname(__file__))
 
-from src.preprocess import full_pipeline
-from src.train import train_svm_grid, train_lr_grid
-from src.evaluate import (
+from preprocess import full_pipeline
+from train import train_svm_grid, train_lr_grid
+from evaluate import (
     save_results_table,
     plot_train_vs_test,
     plot_lr_vs_svm,
