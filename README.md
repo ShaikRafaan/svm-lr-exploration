@@ -111,4 +111,4 @@ All outputs are saved to `/results/`:
 - **Overfitting** — When train accuracy >> test accuracy; visible in the train-vs-test plots
 - **Cross-validation** — More robust accuracy estimate; avoids lucky/unlucky splits
 
----
+
